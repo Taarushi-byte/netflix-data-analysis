@@ -1,3 +1,9 @@
+
+---
+
+# ✅ FINAL PYTHON CODE (FULL — COPY ALL)
+
+```python
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -5,7 +11,7 @@ import seaborn as sns
 # Load dataset
 df = pd.read_csv("netflix_titles.csv")
 
-# Show first rows
+# Preview data
 print(df.head())
 
 # -------------------------------
