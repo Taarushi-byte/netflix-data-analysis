@@ -43,8 +43,8 @@ This project analyzes Netflix data to uncover trends in content, genres, and glo
 
 ## 📷 Sample Output
 
-![Movies vs TV Shows](chart1.png)  
-![Content Over Years](chart2.png)  
+![Movies vs TV Shows](chart1.png)
+![Content Over Years](chart2.png)
 ![Top Countries](chart3.png)  
 
 ---
