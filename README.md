@@ -8,7 +8,7 @@ Exploratory Data Analysis (EDA) on Netflix dataset using Python 📊
 
 ## 📌 Project Overview
 
-This project explores Netflix data to uncover trends in content, genres, and release patterns.
+This project analyzes Netflix data to uncover trends in content, genres, and global distribution.
 
 ---
 
@@ -23,12 +23,12 @@ This project explores Netflix data to uncover trends in content, genres, and rel
 
 ## 📂 Dataset
 
-- Source: Netflix dataset (movies & TV shows)
+- Source: Netflix Movies & TV Shows dataset  
 - Contains:
   - Title  
   - Genre  
-  - Release year  
   - Country  
+  - Release year  
   - Type (Movie/TV Show)  
 
 ---
@@ -36,15 +36,34 @@ This project explores Netflix data to uncover trends in content, genres, and rel
 ## 📊 Key Analysis
 
 - 📈 Content growth over years  
-- 🎭 Most popular genres  
-- 🌍 Country-wise distribution  
-- 🎬 Movies vs TV Shows  
+- 🎬 Movies vs TV Shows distribution  
+- 🌍 Country-wise content production  
 
 ---
 
 ## 📷 Sample Output
 
-(Add charts/screenshots here)
+![Movies vs TV Shows](chart1.png)  
+![Content Over Years](chart2.png)  
+![Top Countries](chart3.png)  
+
+---
+
+## 💡 Key Insights
+
+- 📈 Netflix content has grown significantly over recent years  
+- 🎬 Movies dominate the platform compared to TV Shows  
+- 🌍 The United States produces the most content  
+- 📊 Major growth observed after 2015  
+
+---
+
+## 🧠 What I Learned
+
+- Data cleaning is essential before analysis  
+- Real-world data has missing values  
+- Visualization helps understand patterns quickly  
+- Pandas and Seaborn are powerful tools for analysis  
 
 ---
 
@@ -52,3 +71,4 @@ This project explores Netflix data to uncover trends in content, genres, and rel
 
 ```bash
 pip install pandas matplotlib seaborn
+python analysis.py
